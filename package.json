@@ -1,0 +1,19 @@
+{
+    "main": "main.html",                              /* APP的主入口，文件名任意；必选 */
+    "name": "MusicShell",                                /* APP的名称，必须具备唯一性，且符合正常变量命名；必选 */
+    "description": "music player like shell",         /* APP的简单描述 */
+    "version": "0.0.1",                               /* APP的版本号 */
+    "keywords": ["music", "shell", "player"],            /* APP的关键字，搜索APP时用到 */
+    "single-instance": true,                                /* 只启动一个实例 */
+    "window": {                                       /* APP的窗口属性 */
+        "icon": "logo.png",                           /* APP图标（windows下，状态栏上可见） */
+        "toolbar": false,                              /* 是否显示工具栏 */
+        //"fullscreen": false,
+        //"kiosk": true,                                  /**  bool值。是否使用kiosk模式。如果使用kiosk模式，应用程序将全屏显示，并且阻止用户离开应用。  */  
+        "width": 785,                                 /* 窗口初始化大小 */
+        "height": 634,
+        "frame": true,                                 /* 是否显示外窗体，如最大化、最小化、关闭按钮 */
+        "resizable": false
+    },
+    "user-agent": "%name %ver %nwver %webkit_ver %osinfo" /* 可自定义APP的UA */
+}
